@@ -1,0 +1,186 @@
+{
+  "base": {
+    "decision": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "label": "检零件1/检零件2/不检成品/拆解",
+    "feasible": true,
+    "cost": 38.444444,
+    "profit": 17.555556,
+    "defect_rate": 0.1
+  },
+  "perturbations": [
+    {
+      "parameter": "r1",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.444444,
+      "flipped": false
+    },
+    {
+      "parameter": "r1",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 16.666667,
+      "flipped": false
+    },
+    {
+      "parameter": "r2",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 21.555556,
+      "flipped": false
+    },
+    {
+      "parameter": "r2",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 13.555556,
+      "flipped": false
+    },
+    {
+      "parameter": "d1",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.044444,
+      "flipped": false
+    },
+    {
+      "parameter": "d1",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.066667,
+      "flipped": false
+    },
+    {
+      "parameter": "d2",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.288889,
+      "flipped": false
+    },
+    {
+      "parameter": "d2",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 16.822222,
+      "flipped": false
+    },
+    {
+      "parameter": "p1",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.700483,
+      "flipped": false
+    },
+    {
+      "parameter": "p1",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.40404,
+      "flipped": false
+    },
+    {
+      "parameter": "p2",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.062802,
+      "flipped": false
+    },
+    {
+      "parameter": "p2",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.025253,
+      "flipped": false
+    },
+    {
+      "parameter": "c_asm",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.888889,
+      "flipped": false
+    },
+    {
+      "parameter": "c_asm",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 16.222222,
+      "flipped": false
+    },
+    {
+      "parameter": "d_f",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.555556,
+      "flipped": false
+    },
+    {
+      "parameter": "d_f",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.555556,
+      "flipped": false
+    },
+    {
+      "parameter": "p_a",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 18.086957,
+      "flipped": false
+    },
+    {
+      "parameter": "p_a",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.0,
+      "flipped": false
+    },
+    {
+      "parameter": "c_dis",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.666667,
+      "flipped": false
+    },
+    {
+      "parameter": "c_dis",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.444444,
+      "flipped": false
+    },
+    {
+      "parameter": "c_rep",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.688889,
+      "flipped": false
+    },
+    {
+      "parameter": "c_rep",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 17.422222,
+      "flipped": false
+    },
+    {
+      "parameter": "s",
+      "ratio": 0.8,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 6.355556,
+      "flipped": false
+    },
+    {
+      "parameter": "s",
+      "ratio": 1.2,
+      "best": "检零件1/检零件2/不检成品/拆解",
+      "profit": 28.755556,
+      "flipped": false
+    }
+  ],
+  "flip_count": 0
+}

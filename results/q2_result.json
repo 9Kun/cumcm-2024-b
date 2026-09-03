@@ -1,0 +1,1286 @@
+[
+  {
+    "case": 1,
+    "best": {
+      "decision": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "label": "检零件1/检零件2/不检成品/拆解",
+      "feasible": true,
+      "cost": 38.444444,
+      "profit": 17.555556,
+      "defect_rate": 0.1
+    },
+    "policies": [
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 38.444444,
+        "profit": 17.555556,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 39.26749,
+        "profit": 16.73251,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 40.639232,
+        "profit": 15.360768,
+        "defect_rate": 0.271
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 40.666667,
+        "profit": 15.333333,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 41.111111,
+        "profit": 14.888889,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 41.563786,
+        "profit": 14.436214,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 42.524005,
+        "profit": 13.475995,
+        "defect_rate": 0.271
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 42.559671,
+        "profit": 13.440329,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 43.333333,
+        "profit": 12.666667,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 44.855967,
+        "profit": 11.144033,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "best": {
+      "decision": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "label": "检零件1/检零件2/不检成品/拆解",
+      "feasible": true,
+      "cost": 45.25,
+      "profit": 10.75,
+      "defect_rate": 0.2
+    },
+    "policies": [
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 45.25,
+        "profit": 10.75,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 47.5,
+        "profit": 8.5,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 51.1875,
+        "profit": 4.8125,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 52.59375,
+        "profit": 3.40625,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 53.4375,
+        "profit": 2.5625,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 53.90625,
+        "profit": 2.09375,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 60.015625,
+        "profit": -4.015625,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 60.40625,
+        "profit": -4.40625,
+        "defect_rate": 0.488
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 60.546875,
+        "profit": -4.546875,
+        "defect_rate": 0.488
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 61.328125,
+        "profit": -5.328125,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "best": {
+      "decision": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "label": "检零件1/检零件2/不检成品/拆解",
+      "feasible": true,
+      "cost": 41.111111,
+      "profit": 14.888889,
+      "defect_rate": 0.1
+    },
+    "policies": [
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 41.111111,
+        "profit": 14.888889,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 41.111111,
+        "profit": 14.888889,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 41.563786,
+        "profit": 14.436214,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 42.524005,
+        "profit": 13.475995,
+        "defect_rate": 0.271
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 43.333333,
+        "profit": 12.666667,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 43.333333,
+        "profit": 12.666667,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 44.855967,
+        "profit": 11.144033,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 44.897119,
+        "profit": 11.102881,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 48.1893,
+        "profit": 7.8107,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 49.561043,
+        "profit": 6.438957,
+        "defect_rate": 0.271
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "best": {
+      "decision": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "label": "检零件1/检零件2/检成品/拆解",
+      "feasible": true,
+      "cost": 41.75,
+      "profit": 14.25,
+      "defect_rate": 0.2
+    },
+    "policies": [
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 41.75,
+        "profit": 14.25,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 46.75,
+        "profit": 9.25,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 47.5,
+        "profit": 8.5,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 50.390625,
+        "profit": 5.609375,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 52.5,
+        "profit": 3.5,
+        "defect_rate": 0.2
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 55.859375,
+        "profit": 0.140625,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 58.59375,
+        "profit": -2.59375,
+        "defect_rate": 0.488
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 64.140625,
+        "profit": -8.140625,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 69.609375,
+        "profit": -13.609375,
+        "defect_rate": 0.36
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 83.28125,
+        "profit": -27.28125,
+        "defect_rate": 0.488
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "best": {
+      "decision": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "label": "不检零件1/检零件2/不检成品/不拆解",
+      "feasible": true,
+      "cost": 44.012346,
+      "profit": 11.987654,
+      "defect_rate": 0.19
+    },
+    "policies": [
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 44.012346,
+        "profit": 11.987654,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 44.135802,
+        "profit": 11.864198,
+        "defect_rate": 0.19
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 46.296296,
+        "profit": 9.703704,
+        "defect_rate": 0.352
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 46.416667,
+        "profit": 9.583333,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 47.527778,
+        "profit": 8.472222,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 48.641975,
+        "profit": 7.358025,
+        "defect_rate": 0.352
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 48.981481,
+        "profit": 7.018519,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 50.092593,
+        "profit": 5.907407,
+        "defect_rate": 0.1
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 54.62963,
+        "profit": 1.37037,
+        "defect_rate": 0.28
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 55.740741,
+        "profit": 0.259259,
+        "defect_rate": 0.28
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "best": {
+      "decision": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "label": "不检零件1/不检零件2/不检成品/不拆解",
+      "feasible": true,
+      "cost": 34.32133,
+      "profit": 21.67867,
+      "defect_rate": 0.142625
+    },
+    "policies": [
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "不检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 34.32133,
+        "profit": 21.67867,
+        "defect_rate": 0.142625
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": "检零件1/不检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 34.671235,
+        "profit": 21.328765,
+        "defect_rate": 0.0975
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": "不检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 36.156874,
+        "profit": 19.843126,
+        "defect_rate": 0.142625
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": "不检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 36.654031,
+        "profit": 19.345969,
+        "defect_rate": 0.0975
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": "检零件1/检零件2/不检成品/不拆解",
+        "feasible": true,
+        "cost": 36.759003,
+        "profit": 19.240997,
+        "defect_rate": 0.05
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": "检零件1/不检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 36.915002,
+        "profit": 19.084998,
+        "defect_rate": 0.0975
+      },
+      {
+        "decision": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": "检零件1/检零件2/不检成品/拆解",
+        "feasible": true,
+        "cost": 37.631579,
+        "profit": 18.368421,
+        "defect_rate": 0.05
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": "不检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 38.897799,
+        "profit": 17.102201,
+        "defect_rate": 0.0975
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": "检零件1/检零件2/检成品/不拆解",
+        "feasible": true,
+        "cost": 39.390582,
+        "profit": 16.609418,
+        "defect_rate": 0.05
+      },
+      {
+        "decision": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": "检零件1/检零件2/检成品/拆解",
+        "feasible": true,
+        "cost": 40.263158,
+        "profit": 15.736842,
+        "defect_rate": 0.05
+      },
+      {
+        "decision": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": "不检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": "不检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": "不检零件1/检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": "检零件1/不检零件2/不检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": "不检零件1/检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      },
+      {
+        "decision": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": "检零件1/不检零件2/检成品/拆解",
+        "feasible": false,
+        "reason": "拆解回流要求两个零件均执行检测"
+      }
+    ]
+  }
+]

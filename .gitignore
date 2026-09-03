@@ -1,0 +1,24 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local scratch and obsolete generated files
+tmp/
+figures/legacy/
+
+# Large reference archives and workflow-tool source
+研究生国奖优秀论文/
+研究生国奖优秀论文.zip
+mathmodel-agent/
+
+# Local secrets and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
